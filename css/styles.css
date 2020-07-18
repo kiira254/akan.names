@@ -1,5 +1,6 @@
 .button{
     padding: 2%;
+
 }
 img{
     width: 90%;
@@ -11,58 +12,59 @@ body{
     background-image:
         url("https://nebula.wsimg.com/7156aacbe45c3c7c058d41c10389933f?AccessKeyId=77653BD79EC5A95A7908&disposition=0&alloworigin=1");
     background-color: transparent;
-    .full{
-        color:black;
-        float:inherit;
-    font-size: 20px;
-    padding: 50px;
-    padding-left:20px;
-    margin :20px;
-    margin-right:30px;
-    }
-    h1{
-        color: brown;
-    }
-    .other{
-      float: right;
-    font-size: 20px;
-    border-left: 2px solid red;
-    border-right: 10px solid blue;
-    border-top: 6px solid black;
-    border-bottom: 8px solid black;
-    border: 2px solid grey;
-    padding: 6px;
-    margin: 4px;
-    margin-right:2px;
-    margin-top:2px;
-    }
-    .submit{
-        color:crimson;
-    }
+}
+.full{
+      color:black;
+      float:inherit;
+  font-size: 20px;
+  padding: 50px;
+  padding-left:20px;
+  margin :20px;
+  margin-right:30px;
+  }
+  h1{
+      color: brown;
+  }
+  .other{
+    float: right;
+  font-size: 20px;
+  border-left: 2px solid red;
+  border-right: 10px solid blue;
+  border-top: 6px solid black;
+  border-bottom: 8px solid black;
+  border: 2px solid grey;
+  padding: 6px;
+  margin: 4px;
+  margin-right:2px;
+  margin-top:2px;
+  }
+.submit{
+    color:crimson;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
     .container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-      }
-      @media (min-width: 768px) {
-        .container {
-          width: 750px;
-        }
-      }
-      @media (min-width: 992px) {
-        .container {
-          width: 970px;
-        }
-      }
-      @media (min-width: 1200px) {
-        .container {
-          width: 1170px;
-        }
-      }
-      .bb{
-        color:brown
+      width: 750px;
     }
-    .jumbotron{
-        background-color:goldenrod;
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
     }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  .bb{
+    color:brown
+}
+.jumbotron{
+    background-color:goldenrod;
+}
