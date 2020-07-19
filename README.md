@@ -55,6 +55,8 @@ To fix a bug or enhance an existing module, follow these steps:
 If you find a bug (the website couldn't handle the query and or gave undesired results), kindly open an issue here by including your search query and the expected result.
 
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
+In case of bug contact:
+## 0722574451 nkamotho57@gmail.com
 
 
 ##### Link to Live Site :( https://kiira254.github.io/akan.names/.)[ https://kiira254.github.io/akan.names/.]
