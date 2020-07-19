@@ -59,7 +59,7 @@ In case of bug contact:
 ## 0722574451 nkamotho57@gmail.com
 
 
-##### Link to Live Site :( https://kiira254.github.io/akan.names/.)[ https://kiira254.github.io/akan.names/.]
+##### Link to Live Site :( https://kiira254.github.io/akan.names/.)[https://kiira254.github.io/akan.names/.]
 
 ### License
 
