@@ -30,7 +30,7 @@ JSFiddle or JavaScript Console
    - INPUT: ""
    - OUTPUT: "Displays Error Message"
 3. Displays an Error Message if Gender Not Chosen
-   - INPUT: "" 
+   - INPUT: ""   
    - OUTPUT: "Display an Error Message" 
 4. Clears Form and Reset the Message on Click
    - INPUT: "Click Reset Button" 
