@@ -26,7 +26,7 @@ body{
       color: brown;
   }
   .other{
-    float: right;
+  float: right;
   font-size: 20px;
   border-left: 2px solid red;
   border-right: 10px solid blue;
