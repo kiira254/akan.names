@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -27,63 +26,34 @@
                 <div class="col-md-6">
                     <img src="images/pic.png" alt="Akan names" width="150%" float="right">
                 </div>
-                <div class="col-md-4">
-                    <div class="other" >
-                    <h2><b>Enter your birthday </h2></b>
-                    Enter  your birthday in the calendar format (mm/dd/yy):
-                    <ul>
-                        <li>dd represents a day</li>
-                        <li> mm represents month</li>
-                        <li>y represents year</li>
-                    </ul> 
+                <div class="other" >
+                    <h2><b>You are required to: </h2></b>
+                    <p> Enter you birthdate including day, month, year'Enter your gender. Either male of female.Once you done with all this <strong>click</strong> the <em>submit button</em></p>
                 </div> 
+               
+                <!--the user input form-->
+                <div class="jumbotron">
+                    <strong>
+                        Enter birthday date:<input type="text" id="day" max="31" min="1"></br></br>
+                        Enter your Birth month:<input type="text" id="month" max="12" min="1"></br></br>
+                        Enter your Birth year:<input type="text" id="year"></br></b></b></b></b></b>                  
+                    </strong>
                 </div>
-                <div class="col-md-4">
-                    <div class="other">
-                    <h2><b>Choose your gender</b></h2>
-                    Choose your gender <em>on choose your gender field </em> because akan name will be given according to both birthday and gender.
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="other">
-                    <h2><b>Submit button</b></h2>
-                        Finally, click on submit button identified as <span>AKAN NAME MYSTERY BUTTON</span> to get the day you born on and your akan name.
-                    </div>
-                 </div>
-            
-                </div>
-                 <!--the user input form-->
-                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="jumbotron">
-                            <strong>
-                                day   :<input type="text" id="day" max="31" min="1"></br></br>
-                                month :<input type="text" id="month" max="12" min="1"></br></br>
-                                year  :<input type="text" id="year"></br></b></b></b></b></b>
-                            </strong>
-                        </div>
-                    </div> 
-                    <div class="col-md-6">
-                        <div class="jumbotron">
-                            </strong>
-                            choose gender<select class="col-md-6" id="select">
-                            <option value="male">male</option>
-                            <option value="female">female</option>
-                            </select>
-                            <p> </p>
-                            <p> </p>
-                            <button class="bb" onclick="day()">SUBMIT</button>
-                            <div class="right"></div>
-                            </strong>
-                        </div>
-                    </div>
+                <div class="jumbotron">
+                    <select id="select">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                    <p> </p>
+                    <p> </p>
+                    <button class="bb" onclick="day()">SUBMIT</button>
                 </div>
                 <div class="jumbotron">
                     <p>your day is:</p>
                     <p id="result"></p>
                     <p>your akan name is:</p>
                     <p id="akan-name"></p>
-                </div>
+                </div>    
             </div>
         </div>
     </body>
